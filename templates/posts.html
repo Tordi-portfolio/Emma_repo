@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     
+    <a style="text-decoration: none; color: black;" href="">
+        <h1>{{posts.title}}</h1>
+        <h5>{{posts.created_at}}</h5>
+        <p>{{posts.body}}</p>
+    </a>
+
+    <footer>
+        <p>&copy; by Tordi Friday, 2025</p>
+    </footer>
+
+</body>
+</html>
+
+
+<style>
+    body {
+        box-sizing: border-box;
+        margin: 0;
+        padding-bottom: 20%;
+    }
+
+    a h1{
+        margin: 15% 2% 2% 0;
+        font-style: italic;
+    }
+    a h5 {
+        margin: 0 2% 2% 2%;
+        font-style: italic;
+        font-size: 120%;
+    }
+    a p {
+        margin: 0 2% 2% 2%;
+        
+    }
+
+    footer p {
+        position: fixed;
+        bottom: 0;
+        left: o;
+        width: 100%;
+        background-color: #CCC;
+        color: black;
+        text-align: center;
+        padding: 10px 0;
+        z-index: 10000;
+        margin-bottom: 0;
+    }
+</style>
